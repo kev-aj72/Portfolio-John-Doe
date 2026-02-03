@@ -6,6 +6,7 @@ import Portfolio from "./pages/portfolio"
 import Contact from "./pages/contact"
 import Mentions from "./pages/mentions legales"
 import Navbar from "./components/header";
+import Footbar from "./components/footer"
 
 
 
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/Contact" element={<Contact/>}></Route>
           <Route path="/Mentions" element={<Mentions/>}></Route>
         </Routes>
+        <Footbar/>
     </div>
 
   )

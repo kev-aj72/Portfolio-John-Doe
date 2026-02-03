@@ -31,6 +31,8 @@ const Home = () => {
        </section>
 
        <section>
+        <div className="card" style={{width: "18em"}}>
+        <div className="card-body">
         <article>
         <h2>A propos</h2>
         <img src="/image/john-doe-about.jpg" alt="js" />
@@ -53,8 +55,12 @@ const Home = () => {
 <div className="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
   <div className="progress-bar bg-danger" style={{width: "100%"}}></div>
 </div>
-        </article>
+</article>
+</div>
+</div>
+        
        </section>
+  
        
        </div>
     )
