@@ -11,4 +11,4 @@ const  Ipsum = () => {
     )
 }
 
-export default Ipsum
+export default Ipsum;
