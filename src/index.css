@@ -1,6 +1,9 @@
 
-.heroBg{
+#heroBg{
 
 background-image: url(/public/image/hero-bg.jpg);
+min-height: 60vh;
+background-size: cover;
+background-position: center;
 
 }

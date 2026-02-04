@@ -1,17 +1,19 @@
 import React from "react";
 import Ipsum from "../components/composant"
 
+
 const Home = () => {
     return (
-    <div className="flex-column">
-       <section className="heroBg"> 
-        <h1>Bonjour, je suis John Doe</h1>
+      
+    <div className="container-fluid mt-5 p-0">
+     
+       <section className=" p-3 d-flex flex-column align-items-center justify-content-center" id="heroBg"> 
+        <h1 className="text-light m-2">Bonjour, je suis John Doe</h1>
 
-        <h2>Développeur web full stack</h2>
-
-        <button type="button" className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#savoirPlus">Danger</button>
-
-     <div className="modal" id="savoirPlus" tabIndex="-1">
+        <h2 className="text-light m-2">Développeur web full stack</h2> 
+    
+        <button type="button" className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#savoirPlus">En savoir plus</button>
+        <div className="modal" id="savoirPlus" tabIndex="-1">
   <div className="modal-dialog">
     <div className="modal-content">
       <div className="modal-header">
@@ -27,42 +29,59 @@ const Home = () => {
       </div>
     </div>
   </div>
-</div>
+    </div>
        </section>
 
-       <section>
-        <div className="card" style={{width: "18em"}}>
-        <div className="card-body">
-        <article>
-        <h2>A propos</h2>
-        <img src="/image/john-doe-about.jpg" alt="js" />
+       <section className="d-flex justify-content-center">
+        
+        <div className="card col-lg-8 m-5">
+        <div className="card-body d-flex">
+        <article className="col-lg-6 p-2">
+        <h2 className="border-bottom border-primary border-3 pb-3">A propos</h2>
+        <img className="img-fluid mt-4" src="/image/john-doe-about.jpg" alt="un developpeur qui travail sur son ordinateur " />
         <Ipsum/>
         <Ipsum/>
         <Ipsum/>
         </article>
-        <article>
-            <h2>Mes compétences</h2>
+        <article className="col-lg-6 p-2">
+          
+            <h2 className="border-bottom border-primary border-3 pb-3">Mes compétences</h2>
+    <div className="mb-4 mt-4">
+<span>HTML5 90%</span>
+<div className="progress my-2" role="progressbar" aria-label="Danger example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar bg-danger" style={{width: "90%"}}></div>
+</div></div>
+<div className="mb-4">
+  <span>CSS3 80%</span>
+<div className="progress my-2" role="progressbar" aria-label="Info example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar bg-info" style={{width: "80%"}}></div>
+</div></div>
+<div className="mb-4">
+  <span>JAVASCRIPT 70%</span>
+<div className="progress my-2" role="progressbar" aria-label="Warning example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar bg-warning" style={{width: "70%"}}></div>
+</div></div>
 
-<div className="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-  <div className="progress-bar bg-success" style={{width: "25%"}}></div>
-</div>
-<div className="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-  <div className="progress-bar bg-info" style={{width: "50%"}}></div>
-</div>
-<div className="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-  <div className="progress-bar bg-warning" style={{width: "75%"}}></div>
-</div>
-<div className="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-  <div className="progress-bar bg-danger" style={{width: "100%"}}></div>
-</div>
+<div className="mb-4">
+  <span>PHP 60%</span>
+<div className="progress my-2" role="progressbar" aria-label="Success example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar bg-success" style={{width: "60%"}}></div>
+</div></div>
+<div className="mb-4">
+  <span>REACT 50%</span>
+<div className="progress my-2" role="progressbar" aria-label="Primary example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar bg-primary" style={{width: "50%"}}></div>
+</div></div>
+
 </article>
 </div>
 </div>
-        
+      
        </section>
-  
-       
+
        </div>
+       
+     
     )
 }
 
