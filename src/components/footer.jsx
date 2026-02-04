@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footbar = () => {
     return(
         <footer className="bg-dark text-light text-lg-start p-3">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
 
                     <div className="col-lg-4 col-md-4 list-unstyled">
