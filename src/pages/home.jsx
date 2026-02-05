@@ -1,5 +1,5 @@
 import React from "react";
-import Ipsum from "../components/composant"
+import Ipsum from "../components/ipsum"
 
 
 const Home = () => {
