@@ -37,7 +37,7 @@ const Home = () => {
         <div className="card col-lg-8 m-5">
         <div className="card-body d-flex">
         <article className="col-lg-6 p-2">
-        <h2 className="border-bottom border-primary border-3 pb-3">A propos</h2>
+        <h2 className="w-25 mx-auto border-bottom  border-3">A propos</h2>
         <img className="img-fluid mt-4" src="/image/john-doe-about.jpg" alt="un developpeur qui travail sur son ordinateur " />
         <Ipsum/>
         <Ipsum/>
