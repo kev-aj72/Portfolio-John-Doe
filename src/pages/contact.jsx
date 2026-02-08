@@ -14,7 +14,7 @@ const Contact = () => {
             
             <div className="card container-md mx-auto m-5 p-3 h-100 ">
                 <section className="row">
-                    <article className="row-col-1 col-md-6">
+                    <article className="col-md-6">
                         <h3 className="border-bottom border-primary border-3 pb-3">Formulaire de contact</h3>
                     
                     <form>
