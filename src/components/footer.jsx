@@ -14,9 +14,9 @@ const Footbar = () => {
                             <p className="mb-0">10 20 30 40 50</p>
                             <p className="mb-0">john.doe@gmail.com</p>
                                 <div className="bloc-icon-reseau pt-2">
-                                    <i className="bi bi-github fs-3 pt-0 icon-reseau"></i>
-                                    <i className="bi bi-twitter fs-3 ps-2 icon-reseau"></i>
-                                    <i className="bi bi-linkedin fs-3 ps-2 icon-reseau"></i>
+                                    <a href="https://github.com/github-john-doe" target="blank" rel="noopener" className="iconReseau"><i className="bi bi-github fs-3 pt-0 "></i></a>
+                                    <a href="https://x.com/JohnDoe" target="blank" rel="noopener" className="iconReseau"><i className="bi bi-twitter fs-3 ps-2 "></i></a>
+                                    <a href="https://fr.linkedin.com/in/john-doe-51a61016a" target="blank" rel="noopener" className="iconReseau"><i className="bi bi-linkedin fs-3 ps-2"></i></a>
                                 </div>
                         </address>       
                     </div>
@@ -24,23 +24,23 @@ const Footbar = () => {
                     <div className="col-md-3">
                         <h3>Liens utiles</h3>
                             <ul className="list-unstyled">
-                                <li><Link to="/" className="text-light text-decoration-none">Accueil</Link></li>
-                                <li><Link to="/services" className="text-light text-decoration-none">Services</Link></li>
-                                <li><Link to="/portfolio" className="text-light text-decoration-none">Portfolio</Link></li>
-                                <li><Link to="/contact" className="text-light text-decoration-none">Me contacter</Link></li>
-                                <li><Link to="/mentions" className="text-light text-decoration-none">Mentions légales</Link></li>
+                                <li><Link to="/" className="footerLink">Accueil</Link></li>
+                                <li><Link to="/services" className="footerLink">Services</Link></li>
+                                <li><Link to="/portfolio" className="footerLink">Portfolio</Link></li>
+                                <li><Link to="/contact" className="footerLink">Me contacter</Link></li>
+                                <li><Link to="/mentions" className="footerLink">Mentions légales</Link></li>
                             </ul>
                     </div>
                     
                     <div className="col-md-3">
                     <h3>Mes derniéres réalisations</h3>
                         <ul className="list-unstyled">
-                            <li><Link to="/portfolio" className="text-light text-decoration-none">Fresh Food</Link></li>
-                            <li><Link to="/portfolio" className="text-light text-decoration-none">Restaurant Akira</Link></li>
-                            <li><Link to="/portfolio" className="text-light text-decoration-none">Espace bien-être</Link></li>
-                            <li><Link to="/portfolio" className="text-light text-decoration-none">SEO</Link></li>
-                            <li><Link to="/portfolio" className="text-light text-decoration-none">Création d'une API</Link></li>
-                            <li><Link to="/portfolio" className="text-light text-decoration-none">Maquette d'un site</Link></li>
+                            <li><Link to="/portfolio" className="footerLink">Fresh Food</Link></li>
+                            <li><Link to="/portfolio" className="footerLink">Restaurant Akira</Link></li>
+                            <li><Link to="/portfolio" className="footerLink">Espace bien-être</Link></li>
+                            <li><Link to="/portfolio" className="footerLink">SEO</Link></li>
+                            <li><Link to="/portfolio" className="footerLink">Création d'une API</Link></li>
+                            <li><Link to="/portfolio" className="footerLink">Maquette d'un site</Link></li>
                         </ul>
                     </div>
                 </div>
