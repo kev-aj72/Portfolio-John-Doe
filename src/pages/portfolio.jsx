@@ -10,7 +10,7 @@ const Portfolio = () => {
             </div>
             </div>
 
-        <div className="row row-cols-1 row-cols-md-3 g-4 pb-5 container-md mx-auto">
+        <div className="row cols-md-3 g-4 pb-5 container-md mx-auto">
           
           <div className="col-md-4">
             <div className="card h-100">
