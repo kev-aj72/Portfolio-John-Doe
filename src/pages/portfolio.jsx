@@ -1,3 +1,4 @@
+import React from "react";
 
 const Portfolio = () => {
     return (
@@ -6,7 +7,7 @@ const Portfolio = () => {
             <div className="w-100 my-5  text-center col-md-4">
               <h2>Portfolio</h2>
               <p>Voici quelques-unes de mes réalisations</p> 
-            <div className="w-25 mx-auto border-bottom  border-3 border-primary">
+            <div className="w-25 mx-auto border-bottom  border-4 border-primary">
             </div>
             </div>
 
