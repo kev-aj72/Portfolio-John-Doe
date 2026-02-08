@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link,NavLink} from "react-router-dom";
 
 //barre de navigation
 const Navbar =() => {
@@ -17,19 +17,19 @@ const Navbar =() => {
           <div className="collapse navbar-collapse me-4" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item ms-4 ms-md-0">
-                <Link className="nav-link active text-light" aria-current="page" to="/">Home</Link>
+                <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
               </li>
               <li className="nav-item ms-4 ms-md-0">
-                <Link className="nav-link active text-light" aria-current="page" to="/services">services</Link>
+                <NavLink className="nav-link" aria-current="page" to="/services">services</NavLink>
               </li>
               <li className="nav-item ms-4 ms-md-0">
-                <Link className="nav-link active text-light" aria-current="page" to="/portfolio">portfolio</Link>
+                <NavLink className="nav-link" aria-current="page" to="/portfolio">portfolio</NavLink>
               </li>
               <li className="nav-item ms-4 ms-md-0">
-                <Link className="nav-link active text-light" aria-current="page" to="/contact">contact</Link>
+                <NavLink className="nav-link" aria-current="page" to="/contact">contact</NavLink>
               </li>
               <li className="nav-item ms-4 ms-md-0">
-                <Link className="nav-link active text-light" aria-current="page" to="/mentions">mentions légales</Link>
+                <NavLink className="nav-link" aria-current="page" to="/mentions">mentions légales</NavLink>
               </li>
             </ul>
           </div>

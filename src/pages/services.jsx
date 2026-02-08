@@ -15,7 +15,7 @@ const Services = () => {
             
             <div className="col-md-4">
                 <div className="card h-100 d-flex flex-column align-items-center">
-                    <i className="bi bi-brush fs-1 pt-5 icon-blue"></i>
+                    <i className="bi bi-brush fs-1 pt-5 iconBlue"></i>
                 <div className="card-body mb-2 text-center">
                     <h3 className="card-title">UX Design</h3>
                     <p className="card-text text-justify">l'UX Design est une discipline qui consiste à concevoir des produits 
@@ -29,7 +29,7 @@ const Services = () => {
 
             <div className="col-md-4">
                 <div className="card h-100 d-flex flex-column align-items-center">
-                    <i className="bi bi-code-slash fs-1 pt-5 icon-blue"></i>
+                    <i className="bi bi-code-slash fs-1 pt-5 iconBlue"></i>
                 <div className="card-body mb-2 text-center">
                     <h3 className="card-title">Développement web</h3>
                     <p className="card-text text-justify">Le développement de sites web consiste à créer des sites internet en *
@@ -41,7 +41,7 @@ const Services = () => {
 
             <div className="col-md-4">
                 <div className="card h-100 d-flex flex-column align-items-center">
-                    <i className="bi bi-search fs-1 pt-5 icon-blue"></i>
+                    <i className="bi bi-search fs-1 pt-5 iconBlue"></i>
                 <div className="card-body mb-2 text-center">      
                     <h3 className="card-title">Référencement</h3>
                     <p className="card-text text-justify">Le référencement naturel (SEO) est une technique qui consiste à optimiser 

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&display=swap");
+.App {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+.App h1, .App h2, .App h3, .App h4, .App h5, .App strong {
+  font-weight: 600;
+}
+.App h1 {
+  font-size: 4em;
+}
+.App h2 {
+  font-size: 3em;
+}
+
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.nav-link.active {
+  font-weight: bolder;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px white;
+}
+
+.iconReseau {
+  color: white;
+  opacity: 0.3;
+}
+.iconReseau:hover {
+  opacity: 1;
+}
+
+#heroBg {
+  background-image: url(/public/image/hero-bg.jpg);
+  min-height: 60vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.iconBlue {
+  color: var(--bs-primary);
+}
+
+.footerLink {
+  text-decoration: none;
+  color: white;
+}
+.footerLink:hover {
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 import React from "react";
-import Ipsum from "../components/ipsum"
+import Ipsum from "../components/Ipsum";
 
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
       
     <div className="container-fluid mt-5 p-0 mt-2">
      
-        <section className=" d-flex flex-column align-items-center justify-content-center" id="heroBg"> 
+        <section className="d-flex flex-column align-items-center justify-content-center" id="heroBg"> 
           <h1 className="text-light m-2 text-center">Bonjour, je suis John Doe</h1>
 
           <h2 className="text-light m-2 text-center">Développeur web full stack</h2> 
