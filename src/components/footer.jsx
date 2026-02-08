@@ -6,13 +6,13 @@ const Footbar = () => {
         <footer className="container-fluid bg-dark text-light pt-5 pb-3">
             
                 <div className="row justify-content-center ps-5 ps-md-0 text-md-start">
-                    <div className="col-md-3 list-unstyled">
+                    <div className="col-md-3">
                         <h3>John Doe</h3>
                         <address>
-                            <li>40 rue Laure Diebold</li>
-                            <li>69009 Lyon, France</li>
-                            <li>10 20 30 40 50</li>
-                            <li>john.doe@gmail.com</li>
+                            <p className="mb-0">40 rue Laure Diebold</p>
+                            <p className="mb-0">69009 Lyon, France</p>
+                            <p className="mb-0">10 20 30 40 50</p>
+                            <p className="mb-0">john.doe@gmail.com</p>
                                 <div className="bloc-icon-reseau pt-2">
                                     <i className="bi bi-github fs-3 pt-0 icon-reseau"></i>
                                     <i className="bi bi-twitter fs-3 ps-2 icon-reseau"></i>
@@ -39,7 +39,7 @@ const Footbar = () => {
                             <li><Link to="/portfolio" className="text-light text-decoration-none">Restaurant Akira</Link></li>
                             <li><Link to="/portfolio" className="text-light text-decoration-none">Espace bien-être</Link></li>
                             <li><Link to="/portfolio" className="text-light text-decoration-none">SEO</Link></li>
-                            <li><Link to="/portfolio" className="text-light text-decoration-none">Créaation d'une API</Link></li>
+                            <li><Link to="/portfolio" className="text-light text-decoration-none">Création d'une API</Link></li>
                             <li><Link to="/portfolio" className="text-light text-decoration-none">Maquette d'un site</Link></li>
                         </ul>
                     </div>

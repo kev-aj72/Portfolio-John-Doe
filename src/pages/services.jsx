@@ -1,12 +1,13 @@
+import React from "react";
 
 const Services = () => {
     return (
     <div className="container-fluid p-0">
             <img className="img-fluid mt-5 h-auto" src="/image/banner.jpg" alt="bandeaux décoratifs couleur bleu " />
-        <div className="w-100 my-5  text-center">
+        <div className="mx-auto my-5  text-center">
                 <h2>Mon offre de services</h2>
                 <p>Voici les prestations sur lesquelles je peux intervenir</p>
-            <div className="w-25 mx-auto border-bottom  border-3 border-primary">
+                <div className="w-25 mx-auto border-bottom  border-4 border-primary">
             </div>
         </div>
         

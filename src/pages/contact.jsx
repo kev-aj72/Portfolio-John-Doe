@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="title-page pt-4 text-center">
                 <h2>Contact</h2>
                 <p>Pour me contacter en vue d'un entretien ou d'une futur collaboration, merci de remplir le formulaire de contact.</p>
-            <div className="w-25 mx-auto border-bottom  border-3 border-primary">
+            <div className="w-25 mx-auto border-bottom  border-4 border-primary">
             </div>
             </div>
             
@@ -17,14 +17,14 @@ const Contact = () => {
                     <article className="col-md-6">
                         <h3 className="border-bottom border-primary border-3 pb-3">Formulaire de contact</h3>
                     
-                    <form>
-                
+                    <form action="#" method="post" className="mt-4">
+                            
                             <label htmlFor="InputName1" className="form-label"></label>
                             <input type="text" className="form-control"  placeholder="Votre nom" id="InputName1" aria-describedby="votre nom"required></input>
                        
                             <label htmlFor="InputEmail1" className="form-label"></label>
                             <input type="email" className="form-control" placeholder="Votre adresse email" id="InputEmail1" aria-describedby="Votre adresse email" required></input>
-                        
+                    
                             <label htmlFor="InputPhone1" className="form-label"></label>
                             <input type="tel"  className="form-control" placeholder="Votre numéro de téléphone" id="InputPhone1" aria-describedby="votre numéro de téléphone"required></input>
                        
@@ -42,7 +42,7 @@ const Contact = () => {
                     </article>
                     <article className="row-col-1 col-md-6">
                         <h3 className="border-bottom border-primary border-3 pb-3">Mes coordonnées</h3>
-                            <div>
+                            <div className="mt-5">
                                 <Address/>
                             </div>
                             <div>
