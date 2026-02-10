@@ -24,29 +24,35 @@ const Home = () => {
     
           <button type="button" className="btn btn-danger mt-2" data-bs-toggle="modal" data-bs-target="#savoirPlus">En savoir plus</button>
 
-<div class="modal" id="savoirPlus" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 class="modal-title">Mon profil GitHub</h2>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<div className="modal" id="savoirPlus" tabIndex="-1">
+  <div className="modal-dialog modal-lg modal-dialog-centered">
+    <div className="modal-content bg-dark text-light">
+      <div className="modal-header">
+
+        <h3 className="modal-title fs-4">Mon profil GitHub</h3>
+        <button type="button" className="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <div><img src={user.avatar_url} width="150" alt="avatar du profil" /></div>
-        <div>
-        <p><a href={user.html_url} target="blank" rel="noopener noreferrer">{user.name}</a></p>
-        <p>{user.location}</p>
-        <p>{user.bio}</p>
-        <p>{user.public_repos}</p>
-        <p>{user.followers}</p>
-        <p>{user.following}</p>
-        
+      <div className="modal-body">
+        <div className="row align-items-center">
+          <div className="col-md-6">
+            <img className="img-fluid pb-3" src={user.avatar_url} alt="avatar du profil" />
+          </div>
+
+          <div className="col-md-6 px-5">
+            <p className="border-bottom pb-2"><i className="bi bi-person pe-2"></i><a href={user.html_url} target="blank" rel="noopener noreferrer">{user.name}</a></p>
+            <p className="border-bottom pb-2"><i className="bi bi-geo-alt pe-2"></i>{user.location}</p>
+            <p className="border-bottom pb-2"><i className="bi bi-card-text pe-2"></i>{user.bio}</p>
+            <p className="border-bottom pb-2"><i className="bi bi-box pe-2"></i>Repositories : {user.public_repos}</p>
+            <p className="border-bottom pb-2"><i className="bi bi-people pe-2"></i>Followers : {user.followers}</p>
+            <p><i className="bi bi-people pe-2"></i>following : {user.following} </p>
+          </div>
         </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        
+
+      <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
       </div>
+    
     </div>
   </div>
 </div>
