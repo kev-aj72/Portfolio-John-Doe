@@ -11,6 +11,7 @@ import Footbar from "./components/Footer";
 
 
 export default function App() {
+
   return ( 
     <div className="App">
       <Navbar/>
