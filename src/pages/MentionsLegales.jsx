@@ -2,7 +2,6 @@ import React from "react";
 import Address from "../components/Address";
 const Mentions = () => {
     return (
-
       
         <div className="container-fluid pt-5">
        
@@ -65,7 +64,7 @@ const Mentions = () => {
             </div>
           </div>
         </div>
-    )
+  )
 }
 
 export default Mentions;
