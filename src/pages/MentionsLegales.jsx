@@ -1,9 +1,11 @@
 import React from "react";
 import Address from "../components/Address";
-
 const Mentions = () => {
     return (
+
+      
         <div className="container-fluid pt-5">
+       
           <div className="title-page pt-5 text-center">
             <h2 className="w-25 mx-auto border-bottom  pb-4 border-5 border-primary">Mentions légales</h2>
           </div>
@@ -48,7 +50,7 @@ const Mentions = () => {
               <div className="accordion-body">
                 <strong className="fs-4">Crédits</strong>
                   <p>Ce site a été réalisé par John Doe, étudiant au
-                    <a href="https://www.centre-europeen-formation.fr/landing/multi-marque/?code=4464&utm_campaign=TOTAL-REF_PAYANT-Marque_CEF&utm_source=bing&utm_medium=cpc&msclkid=0e0dee9adfa11e95b934871e151705db"target="_blank"
+                    <a href="https://bit.ly/4qLAQop"target="_blank"
                       rel="noopener noreferrer"> Centre Européen de formation.</a></p>
                 <div className="fst-italic">      
                   <p>Les image utilisées sur ce site sont libres de droits et ont été obtenues sur le site

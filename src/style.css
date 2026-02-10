@@ -52,4 +52,13 @@
   font-weight: bolder;
 }
 
+.cardCustom:hover {
+  background-color: #efefef;
+  box-shadow: 0 0 5px black;
+}
+
+.buttonCustom:hover {
+  filter: brightness(1.5);
+}
+
 /*# sourceMappingURL=style.css.map */
