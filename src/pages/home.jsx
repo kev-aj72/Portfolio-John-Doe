@@ -15,7 +15,7 @@ const Home = () => {
           <button type="button" className="btn btn-danger mt-2" data-bs-toggle="modal" data-bs-target="#savoirPlus">En savoir plus</button>
         </section>
 
-        <section className="card container-md mx-auto m-5 p-3 h-100">
+        <section className="card container-md mx-auto m-5 p-3 h-100 shadow">
           <div className="row">
               
               <article className="col-md-6 p-2">

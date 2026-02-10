@@ -12,7 +12,7 @@ const Contact = () => {
             </div>
             </div>
             
-            <div className="card container-md mx-auto m-5 p-3 h-100 ">
+            <div className="card shadow container-md mx-auto m-5 p-3 h-100 ">
                 <section className="row">
                     <article className="col-md-6">
                         <h3 className="border-bottom border-primary border-3 pb-3">Formulaire de contact</h3>

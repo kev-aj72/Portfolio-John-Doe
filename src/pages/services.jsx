@@ -14,7 +14,7 @@ const Services = () => {
         <div className="row cols-md-3 g-4 pb-5 container-md mx-auto">
             
             <div className="col-md-4">
-                <div className="card h-100 d-flex flex-column align-items-center">
+                <div className="card cardCustom h-100 d-flex flex-column align-items-center">
                     <i className="bi bi-brush fs-1 pt-5 iconBlue"></i>
                 <div className="card-body mb-2 text-center">
                     <h3 className="card-title">UX Design</h3>
@@ -28,7 +28,7 @@ const Services = () => {
             </div>
 
             <div className="col-md-4">
-                <div className="card h-100 d-flex flex-column align-items-center">
+                <div className="card cardCustom h-100 d-flex flex-column align-items-center">
                     <i className="bi bi-code-slash fs-1 pt-5 iconBlue"></i>
                 <div className="card-body mb-2 text-center">
                     <h3 className="card-title">Développement web</h3>
@@ -40,7 +40,7 @@ const Services = () => {
             </div>
 
             <div className="col-md-4">
-                <div className="card h-100 d-flex flex-column align-items-center">
+                <div className="card cardCustom h-100 d-flex flex-column align-items-center">
                     <i className="bi bi-search fs-1 pt-5 iconBlue"></i>
                 <div className="card-body mb-2 text-center">      
                     <h3 className="card-title">Référencement</h3>
