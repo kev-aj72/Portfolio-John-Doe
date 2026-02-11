@@ -1,5 +1,5 @@
 import React from "react";
-import GoogleMapIframe from "../components/googleMapIframe";
+import GoogleMapIframe from "../components/googlemapiframe";
 import Address from "../components/address";
 
 const Contact = () => {
