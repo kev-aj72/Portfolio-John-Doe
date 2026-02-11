@@ -13,6 +13,7 @@ const Portfolio = () => {
 
         <div className="row cols-md-3 g-4 pb-5 container-md mx-auto">
           
+          {/*carte fresh food*/}
           <div className="col-md-4">
             <div className="card cardCustom h-100">
               <img src="/image/portfolio/fresh-food.jpg" className="card-img-top img-fluid" alt="panier-de-légumes"/>
@@ -27,6 +28,7 @@ const Portfolio = () => {
             </div>
           </div>
 
+          {/*carte restaurant akira*/}
           <div className="col-md-4">
             <div className="card cardCustom h-100">
               <img src="/image/portfolio/restaurant-japonais.jpg" className="card-img-top img-fluid" alt="suchi-restaurant-japonnais"/>
@@ -41,6 +43,7 @@ const Portfolio = () => {
             </div>
           </div>
 
+          {/*carte espace bien être*/}
           <div className="col-md-4">
             <div className="card cardCustom h-100">
               <img src="/image/portfolio/espace-bien-etre.jpg" className="card-img-top img-fluid" alt="espace-bien-etre"/>
@@ -55,6 +58,7 @@ const Portfolio = () => {
             </div>
           </div>
 
+          {/*carte SEO*/}
           <div className="col-md-4">
             <div className="card cardCustom h-100">
               <img src="/image/portfolio/seo.jpg" className="card-img-top img-fluid" alt="écran-seo"/>
@@ -69,6 +73,7 @@ const Portfolio = () => {
             </div>
           </div>
 
+          {/*carte création d'une API*/}
           <div className="col-md-4">
             <div className="card cardCustom h-100">
               <img src="/image/portfolio/coder.jpg" className="card-img-top img-fluid" alt="screen-écran-du-code-de-developpement-site"/>
@@ -83,6 +88,7 @@ const Portfolio = () => {
             </div>
           </div>
 
+          {/*carte Maquette d'un site web*/}
           <div className="col-md-4">
             <div className="card cardCustom h-100">
               <img src="/image/portfolio/screens.jpg" className="card-img-top img-fluid" alt="espace-de-travail-bureau"/>

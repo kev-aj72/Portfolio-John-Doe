@@ -1,14 +1,17 @@
 import React from "react";
 import Address from "../components/Address";
+
 const Mentions = () => {
     return (
       
         <div className="container-fluid pt-5">
-       
           <div className="title-page pt-5 text-center">
-            <h2 className="w-25 mx-auto border-bottom  pb-4 border-5 border-primary">Mentions légales</h2>
+            <h2>Mentions légales</h2>
+             <div className="w-25 mx-auto border-bottom  border-4 border-primary">
+            </div>
           </div>
-          
+
+          {/*premiere partie accordion bootstrap composant address a retrouver dans fichier components*/}
           <div className="accordion container-md mx-auto py-5" id="accordionExample">
             <div className="accordion-item">
               <h3 className="accordion-header">
@@ -23,6 +26,7 @@ const Mentions = () => {
             </div>
             </div>
 
+          {/*deuxieme partie accordion bootstrap*/}
             <div className="accordion-item">
               <h3 className="accordion-header">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" 
@@ -38,7 +42,8 @@ const Mentions = () => {
               </div>
             </div>
             </div>
-  
+
+                {/*Troisieme partie accordion bootstrap*/}
             <div className="accordion-item">
               <h3 className="accordion-header">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" 
@@ -64,6 +69,7 @@ const Mentions = () => {
             </div>
           </div>
         </div>
+    
   )
 }
 

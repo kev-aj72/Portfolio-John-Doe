@@ -6,6 +6,8 @@ const Footbar = () => {
         <footer className="container-fluid bg-dark text-light pt-5 pb-3">
             
                 <div className="row justify-content-center ps-5 ps-md-0 text-md-start">
+                    
+                    {/*1er partie Nom du developpeur+adresse*/}
                     <div className="col-md-3">
                         <h3>John Doe</h3>
                         <address>
@@ -21,6 +23,7 @@ const Footbar = () => {
                         </address>       
                     </div>
                     
+                    {/*2eme partie lien menu vers differente pages*/}
                     <div className="col-md-3">
                         <h3>Liens utiles</h3>
                             <ul className="list-unstyled">
@@ -31,7 +34,8 @@ const Footbar = () => {
                                 <li><Link to="/mentions" className="footerLink">Mentions légales</Link></li>
                             </ul>
                     </div>
-                    
+
+                    {/*3eme partie lien menu vers page portfolio provisoire avant creation des different sites*/}
                     <div className="col-md-3">
                     <h3>Mes derniéres réalisations</h3>
                         <ul className="list-unstyled">
