@@ -53,9 +53,7 @@ const Mentions = () => {
             <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div className="accordion-body">
                 <strong className="fs-4">Crédits</strong>
-                  <p>Ce site a été réalisé par John Doe, étudiant au
-                    <a href="https://bit.ly/4qLAQop"target="_blank"
-                      rel="noopener noreferrer"> Centre Européen de formation.</a></p>
+                  <p>Ce site a été réalisé par John Doe, étudiant au Centre Européen de formation.</p>
                 <div className="fst-italic">      
                   <p>Les image utilisées sur ce site sont libres de droits et ont été obtenues sur le site
                     <a href="https://pixabay.com/fr/"target="_blank"
