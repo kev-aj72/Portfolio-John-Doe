@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from "react";
-import Ipsum from "../components/Ipsum";
+import Ipsum from "../components/ipsum";
  
 // code pour le lien entre l'api et le modale
 const Home = () => {
