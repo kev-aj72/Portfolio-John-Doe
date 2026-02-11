@@ -4,7 +4,7 @@ import Home from "./pages/home";
 import Services from "./pages/services";
 import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
-import Mentions from "./pages/mentionslegales";
+import Mentions from "./pages/MentionsLegales";
 import Navbar from "./components/header";
 import Footbar from "./components/footer";
 
