@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&display=swap');
+//ajout de la police + des differente graisseur au site
 
 .App{
         font-family: "Nunito Sans", sans-serif;
@@ -13,6 +14,7 @@
             font-size: 3em;
     }
 
+//effect liens navBar
 }
 .nav-link{
   color: white;
@@ -26,6 +28,7 @@
   }
 }
 
+//effect liens icons reseaux sociaux
 .iconReseau{
     color: white;
     opacity: 0.3;
@@ -35,7 +38,7 @@
     }
 }
 
-
+//background image page home 
 #heroBg{
 background-image: url(/public/image/hero-bg.jpg);
 min-height: 60vh;
@@ -43,10 +46,12 @@ background-size: cover;
 background-position: center;
 }
 
+//couleur icon page services
 .iconBlue{
     color:var(--bs-primary);
 }
 
+//effect liens footer
 .footerLink{
     text-decoration: none;
     color: white;
@@ -56,6 +61,8 @@ background-position: center;
     }
 }
 
+
+//effect des card bootstrap et effect bouton
 .cardCustom:hover{
     background-color: #efefef;
     box-shadow: 0 0 5px black;

@@ -16,7 +16,8 @@ const Contact = () => {
                 <section className="row">
                     <article className="col-md-6">
                         <h3 className="border-bottom border-primary border-3 pb-3">Formulaire de contact</h3>
-                    
+                        
+                    {/*formulaire avec chaque champs obligatoire*/}
                     <form action="#" method="post" className="mt-4">
                             
                             <label htmlFor="InputName1" className="form-label"></label>
@@ -40,6 +41,8 @@ const Contact = () => {
                         </div>
                     </form>
                     </article>
+
+                    {/*composant address et GoogleMapIframe pour la carte google map code a retrouver dans le fichier components*/}
                     <article className="row-col-1 col-md-6">
                         <h3 className="border-bottom border-primary border-3 pb-3">Mes coordonnées</h3>
                             <div className="mt-5">
