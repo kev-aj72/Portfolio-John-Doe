@@ -14,7 +14,6 @@ const Home = () => {
   },[])
  
     return (
-    
       
     <div className="container-fluid mt-5 p-0 mt-2">
 
