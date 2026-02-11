@@ -8,8 +8,6 @@ import Mentions from "./pages/MentionsLegales";
 import Navbar from "./components/header";
 import Footbar from "./components/footer";
 
-
-
 export default function App() {
 
   return ( 
